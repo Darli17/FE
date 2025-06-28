@@ -7839,3 +7839,10 @@ while wait() do
 	Event:FireAllClients("SetTiming",{Timing = {Sine = (tick()-Start)*60,SongPosition = (tick()-SongStart)*Pitch},AudioId = AudioId,SongPitch = Pitch}) end
    end,
 })
+local Button = Tab1:CreateButton({
+   Name = "FE Vereus",
+   Callback = function()
+		game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("-gh 6531967293 12103270510 3403874988 10775031176 2493590711 9350274205 4381828509")
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/randomstring0/Qwerty/main/qwerty5.lua'))()
+   end,
+})
