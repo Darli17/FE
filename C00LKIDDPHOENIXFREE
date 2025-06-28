@@ -67,7 +67,7 @@ game:GetService("UserInputService").InputBegan:Connect(function(input)
 		end
 end)
 
-local Tab = Window:CreateTab("Main [Hubs]", "rewind")
+local Tab = Window:CreateTab("Main [Hubs]", "93059210162475")
 
 local LabelW = Tab:CreateLabel("This script has been maded for game names 'Just a Baseplate', other games dont support!", 240664703, Color3.fromRGB(255, 0, 0), false) -- Title, Icon, Color, IgnoreTheme
 local LabelC = Tab:CreateLabel("This script is made just for fun, we are not responsible for all your actions!", 17453328242, Color3.fromRGB(255, 255, 0), false) -- Title, Icon, Color, IgnoreTheme
@@ -222,7 +222,7 @@ Window:SelectTab(1)
    end,
 })
 
-local Tab1 = Window:CreateTab("Scripts [Separate]", "rewind")
+local Tab1 = Window:CreateTab("Scripts [Separate]", "86591853167234")
 
 local Button = Tab1:CreateButton({
    Name = "Krystal Dance V3 Modded by Hemi",
@@ -8083,21 +8083,4 @@ end))
 
 local Tab3 = Window:CreateTab("Local FE", "rewind")
 
-local Button = Tab3:CreateButton({
-   Name = "C00LKIDD CHAT SPAMMING [ALWAYS 3 SEC]",
-   Callback = function()
-   	while true do
-		wait(3)
-		game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("Join C00lKidd Team, free cheats and D͖̭͐͌I͈͇̭̔̎͞C͟͡KS̡̱̺̓̿͡")
-	end
-   end,
-})
-local Button = Tab3:CreateButton({
-   Name = "KEYTOXIC CHAT SPAMMING [ALWAYS 10 SEC]",
-   Callback = function()
-   	while true do
-		wait(10)
-		game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("kEyT0Xic HAS NEW HACKER GOT U")
-	end
-   end,
-})
+
