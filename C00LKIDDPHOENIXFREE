@@ -8080,3 +8080,24 @@ end))
 
    end,
 })
+
+local Tab3 = Window:CreateTab("Local FE", "rewind")
+
+local Button = Tab3:CreateButton({
+   Name = "C00LKIDD CHAT SPAMMING [ALWAYS 3 SEC]",
+   Callback = function()
+   	while true do
+		wait(3)
+		game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("Join C00lKidd Team, free cheats and D͖̭͐͌I͈͇̭̔̎͞C͟͡KS̡̱̺̓̿͡")
+	end
+   end,
+})
+local Button = Tab3:CreateButton({
+   Name = "KEYTOXIC CHAT SPAMMING [ALWAYS 10 SEC]",
+   Callback = function()
+   	while true do
+		wait(10)
+		game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("kEyT0Xic HAS NEW HACKER GOT U")
+	end
+   end,
+})
