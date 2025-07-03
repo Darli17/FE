@@ -9375,12 +9375,15 @@ end))
 
     end
 })
-local Button = Tab:Button({
-    Title = "Button",
-    Desc = "Test Button",
+local Button = Tab2:Button({
+    Title = "FE Sword Glitcher",
+    Desc = "Only for 'Just A Baseplate'. ",
     Locked = false,
     Callback = function()
-        print("clicked")
+        game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("-gh 4458601937 4506945409 4794315940 4820152700")
+	wait(1)
+	game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("-net")
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/SwordSimIsGood/Sword-SG/main/Swords%20FE%20Starmd'))()
     end
 })
 
